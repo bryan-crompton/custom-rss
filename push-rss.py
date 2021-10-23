@@ -56,5 +56,3 @@ f = open("test-feed.xml",'w')
 f.write(feed.rss() + "\n")
 
 path = "/home/bryan/tidy/projects/custom-rss"
-
-os.popen("bash update.sh")
