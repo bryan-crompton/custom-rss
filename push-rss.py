@@ -55,3 +55,4 @@ feed = Feed(
 f = open("my-reading-list.xml",'w')
 f.write(feed.rss())
 
+os.system('bash update.sh')
