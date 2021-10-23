@@ -55,4 +55,6 @@ feed = Feed(
 f = open("my-reading-list.xml",'w')
 f.write(feed.rss() + "\n")
 
-os.system('bash update.sh')
+path = "/home/bryan/tidy/projects/custom-rss"
+
+os.system(f'cd {path} && bash update.sh')
