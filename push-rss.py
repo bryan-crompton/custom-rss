@@ -38,7 +38,7 @@ items.sort(key = lambda x: x.pubDate)
 
 print([item.pubDate for item in items])    
 
-if len(items) >= LEN:
+if len(items) > LEN:
     items = items[-LEN:]
 
 
