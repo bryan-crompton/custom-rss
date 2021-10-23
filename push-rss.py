@@ -19,7 +19,7 @@ dfmt = "%a, %d %b %Y %H:%M:%S %Z"
  
 stuff = feedparser.parse("my-reading-list.xml")
 
-LEN = 100
+LEN = 5
 
 items = [item1]
 
