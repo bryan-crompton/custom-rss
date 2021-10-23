@@ -19,7 +19,7 @@ dfmt = "%a, %d %b %Y %H:%M:%S %Z"
  
 stuff = feedparser.parse("test-feed.xml")
 
-LEN = 5
+LEN = 3
 
 items = [item1]
 
@@ -44,7 +44,7 @@ if len(items) > LEN:
 
 feed = Feed(
         title = "My Reading List",
-        link = "https://raw.githubusercontent.com/bryan-crompton/custom-rss/main/my-reading-list.xml",
+        link = "https://raw.githubusercontent.com/bryan-crompton/custom-rss/main/test-feed.xml",
         description = "My personal reading list feed created from bookmarks",
         language = "en-US",
         lastBuildDate = datetime.datetime.now(),
