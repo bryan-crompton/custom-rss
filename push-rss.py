@@ -17,7 +17,7 @@ item1 = Item(
         
 dfmt = "%a, %d %b %Y %H:%M:%S %Z" 
  
-stuff = feedparser.parse("my-reading-list.xml")
+stuff = feedparser.parse("test-feed.xml")
 
 LEN = 5
 
@@ -52,7 +52,7 @@ feed = Feed(
 
 
 
-f = open("my-reading-list.xml",'w')
+f = open("test-feed.xml",'w')
 f.write(feed.rss() + "\n")
 
 path = "/home/bryan/tidy/projects/custom-rss"
