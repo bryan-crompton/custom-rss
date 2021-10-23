@@ -9,10 +9,10 @@ num = random.randint(0, 1000000)
 # year, month, date, hh, mm, ss
 item1 = Item(
         title = "Tacos Galore",
-        link = "https://www.{num}.com",
+        link = f"https://www.{num}.com",
         description = f"{num}",
         author = "Vivek Gite",
-        guid = Guid("https://www.{num}.com"),
+        guid = Guid(f"https://www.{num}.com"),
         pubDate = datetime.datetime.now())
         
 dfmt = "%a, %d %b %Y %H:%M:%S %Z" 
