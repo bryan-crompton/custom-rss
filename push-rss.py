@@ -8,7 +8,7 @@ num = random.randint(0, 1000000)
 
 # year, month, date, hh, mm, ss
 item1 = Item(
-        title = "Another one",
+        title = "Another thingy",
         link = "https://www.{num}.com",
         description = f"{num}",
         author = "Vivek Gite",
