@@ -6,7 +6,7 @@ import os
 
 num = random.randint(0, 1000000)
 
-f = open("file:///home/bryan/tidy/myweb/bookmarks/article-html/d00148e4314a87df.html.art.html")
+f = open("/home/bryan/tidy/myweb/bookmarks/article-html/d00148e4314a87df.html.art.html")
 description = f.read()
 f.close()
 
