@@ -35,11 +35,12 @@ for entry in stuff.entries:
     items.append(item)
 
 items.sort(key = lambda x: x.pubDate)
+items.reverse()
 
 print([item.pubDate for item in items])    
 
 if len(items) > LEN:
-    items = items[-LEN:]
+    items = items[:LEN]
 
 
 feed = Feed(
